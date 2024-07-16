@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body{
+  background-color: gainsboro;
+ }
+
+header{
+    display: flex;
+    background-color: green;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+ justify-content:space-between;
+align-items: end; 
+text-align: end;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin: 10px;
+color: white;
+
+}
+
+li:hover{
+    transform: rotate(45deg);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+margin-top: 80px;
+}
+
+.box1{
+    border: 1px solid;
+    border-radius: 20px;
+    width: 500px;
+    height: 90px;
+    margin: 20px;
+ padding: 90px;
+justify-content:left;
+display: flex;
+flex-direction: column;
+background-color: white;
+
+}
+
+.box1:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 10px gray;
+}
+
+.box2{
+    border: 1px solid;
+    border-radius: 20px;
+    width: 500px;
+    height: 90px;
+    margin: 20px;
+ padding: 90px;
+justify-content:left;
+display: flex;
+flex-direction: column;
+background-color: white;
+
+}
+
+.box2:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 10px gray;
+}
+
+.box3{
+    border: 1px solid;
+    border-radius: 20px;
+    width: 500px;
+    height: 90px;
+    margin: 20px;
+ padding: 90px;
+justify-content:left;
+display: flex;
+flex-direction: column;
+background-color: white;
+
+}
+
+.box3:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 10px gray;
+}
+
+.box4{
+    border: 1px solid;
+    border-radius: 20px;
+    width: 500px;
+    height: 70px;
+    margin: 20px;
+ padding: 90px;
+justify-content:left;
+display: flex;
+flex-direction: column;
+background-color: white;
+
+}
+
+.box4:hover{
+    transform: scale(1.1);
+    box-shadow:1px 1px 10px gray;
+}
+
+.box5{
+    border: 1px solid;
+    border-radius: 20px;
+    width: 500px;
+    height: 90px;
+    margin: 20px;
+ padding: 90px;
+justify-content:left;
+display: flex;
+flex-direction: column;
+background-color: white;
+
+}
+
+.box5:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 10px gray;
+}
+
+.box6{
+    border: 1px solid;
+    border-radius: 20px;
+    width: 500px;
+    height: 90px;
+    margin: 20px;
+ padding: 90px;
+justify-content:left;
+display: flex;
+flex-direction: column;
+background-color: white;
+
+}
+
+.box6:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 10px gray;
+}
